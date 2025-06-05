@@ -1,0 +1,59 @@
+body {
+  background-image: url('background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #fff;
+  font-family: "lulo-one", sans-serif;
+  font-weight: 400;
+  letter-spacing: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.rat-logo {
+  width: 600px; /* 2× typical 180px */
+  height: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: "lulo-one", sans-serif;
+  font-weight: 700; /* Bold */
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #ccc;
+  margin: 20px 0;
+  font-weight: 400;
+}
+
+.buttons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 20px;
+}
+
+a {
+  text-decoration: none;
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  color: #fff;
+  font-weight: 400;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #000;
+}
